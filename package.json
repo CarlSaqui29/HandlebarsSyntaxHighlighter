@@ -1,0 +1,25 @@
+{
+  "name": "mr--handlebars",
+  "displayName": "Mr. Handlebars",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "handlebars",
+      "aliases": ["handlebars", "handlebars"],
+      "extensions": [".html"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "handlebars",
+      "scopeName": "source.handlebars.grammar",
+      "path": "./syntaxes/handlebars.tmLanguage.json"
+    }]
+  }
+}
