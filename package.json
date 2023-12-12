@@ -12,12 +12,12 @@
   "contributes": {
     "languages": [{
       "id": "handlebars",
-      "aliases": ["handlebars", "handlebars"],
+      "aliases": ["handlebars", "handlebars", "html-handlebars"],
       "extensions": [".html"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
-      "language": "handlebars",
+      "language": "html",
       "scopeName": "source.handlebars.grammar",
       "path": "./syntaxes/handlebars.tmLanguage.json"
     }]

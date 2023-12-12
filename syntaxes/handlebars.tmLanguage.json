@@ -1,4 +1,5 @@
 {
+	"scopeName": "source.handlebars.grammar",
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "handlebars",
 	"patterns": [
@@ -7,13 +8,19 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#html_attr"
+		},
+		{
+			"include": "#meta_tags"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.handlebars",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(?:if|with|each|inline|unless|@index|@key|as|lookup|log|level|compare)\\b"
 			}]
 		},
 		"strings": {
@@ -26,7 +33,38 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"html_attr": {
+			"name": "comment.html",
+			"begin": "<!--",
+      "end": "-->",
+			"captures": {
+        "0": { "name": "punctuation.definition.tag.html" },
+        "1": { "name": "entity.name.tag.html" },
+        "2": { "name": "punctuation.definition.tag.html" }
+      },
+			"patterns": [
+        {
+          "match": "\\b(?:class|id|name)\\b",
+          "name": "keyword.attribute.html"
+        }
+			]
+		},
+		"meta_tags": {
+			"name": "meta.tag.html",
+			"begin": "<",
+			"end": ">",
+			"captures": {
+				"0": { "name": "punctuation.definition.tag.html" },
+				"1": { "name": "entity.name.tag.html" },
+				"2": { "name": "punctuation.definition.tag.html" }
+			},
+			"patterns": [
+				{
+          "match": "\\w+",
+          "name": "entity.other.attribute-name.html"
+        }
+			]
 		}
-	},
-	"scopeName": "source.handlebars.grammar"
+	}
 }
