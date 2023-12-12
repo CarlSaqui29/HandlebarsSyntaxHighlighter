@@ -1,6 +1,6 @@
-# Mr. Handlebars README
+# Handlebars - Syntax Highlighter README
 
-Supercharge your HTML development with our Mr. Handlebars extension! Enjoy seamless syntax highlighting for both Handlebars.js and HTML within your .html files, enhancing code readability. Harness the power of Handlebars with emmet shortcuts, and effortlessly create Handlebars templates and partials with our convenient keyboard shortcuts, streamlining your workflow for efficient web development.
+Supercharge your HTML development with our Handlebars - Syntax Highlighter extension! Enjoy seamless syntax highlighting for both Handlebars.js and HTML within your .html files, enhancing code readability. Harness the power of Handlebars with emmet shortcuts, and effortlessly create Handlebars templates and partials with our convenient keyboard shortcuts, streamlining your workflow for efficient web development.
 
 ## Key Features
 
@@ -12,7 +12,7 @@ Supercharge your HTML development with our Mr. Handlebars extension! Enjoy seaml
 
 ## Requirements
 
-- Install Mr. Handlebars on vscode extension
+- Install Handlebars - Syntax Highlighter on vscode extension
 - Select Language Mode pres `⌘K M` then choose handlebars
 - Restart VSCode
 

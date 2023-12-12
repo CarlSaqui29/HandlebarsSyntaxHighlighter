@@ -1,9 +1,11 @@
 {
-  "name": "mr--handlebars",
-  "displayName": "Mr. Handlebars",
-  "description": "Just another VScode extension",
+  "name": "handlebars-syntax-highlighter",
+  "displayName": "Handlebars - Syntax Highlighter",
+  "description": "Handlebars Syntax Highlighter",
+  "publisher": "CarlSaqui",
   "version": "1.0.0",
-  "repository": "https://github.com/CarlSaqui29/Mr.Handlebars",
+  "icon": "/logo.png",
+  "repository": "https://github.com/CarlSaqui29/HandlebarsSyntaxHighlighter",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
