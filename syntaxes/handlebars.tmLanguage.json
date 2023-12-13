@@ -838,16 +838,6 @@
 					"include": "#partial_and_var"
 				}
 			]
-		},
-		"single_quoted_text": {
-      "begin": "'",
-      "end": "'",
-      "name": "string.quoted.single"
-    },
-		"double_quoted_text": {
-      "begin": "\"",
-      "end": "\"",
-      "name": "string.quoted.double"
-    }
+		}
 	}
 }
