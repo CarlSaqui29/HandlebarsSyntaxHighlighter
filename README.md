@@ -10,29 +10,15 @@ Supercharge your HTML development with our Handlebars - Syntax Highlighter exten
 
 3. Swift Template Creation: Accelerate your coding journey with convenient shortcuts for crafting Handlebars templates and partials. Effortlessly generate the scaffolding you need, empowering you to focus on what matters most – your code.
 
-## Requirements
+## How to Use
 
 - Install Handlebars - Syntax Highlighter on vscode extension
-- Select Language Mode pres `⌘K M` then choose handlebars
+- Select Language Mode press `⌘K M` then choose HTML as the Language Identifier
 - Restart VSCode
 
-## Features currently not Implemented
+### Release 1.1.0
 
-- Emmet for Handlebars
-- Swift Template Creation
-
-## Known Issues
-
-- HTML id attribute inline with the handlebars template syntax not highlighted
-- Handlebars highlighted syntax not recognize inside partial template
-
-## Release Notes
-
-### 1.0.0
-
-Initial release
-
-**Enjoy!**
+**Yeahh!**
 ---
 ## License
 
