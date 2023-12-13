@@ -30,9 +30,6 @@
 			"include": "#inline_script"
 		},
 		{
-			"include": "#html_tags"
-		},
-		{
 			"include": "text.html.basic"
 		}
 	],
@@ -709,7 +706,7 @@
 			]
 		},
 		"inline_script": {
-			"begin": "(?:^\\s+)?(<)((?i:script))\\b(?:.*(type)=([\"'](?:text/x-handlebars-template|text/x-handlebars|text/template|x-tmpl-handlebars)[\"']))(?![^>]*/>)",
+			"begin": "(?:^\\s+)?(<)((?i:script))\\b(?:.*(type)=([\"'](?:text/x-handlebars-template|text/x-handlebars-partial|text/x-handlebars|text/template|x-tmpl-handlebars)[\"']))(?![^>]*/>)",
 			"beginCaptures": {
 				"1": {
 					"name": "punctuation.definition.tag.html"
