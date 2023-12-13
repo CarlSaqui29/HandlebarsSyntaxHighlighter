@@ -3,7 +3,7 @@
   "displayName": "Handlebars - Syntax Highlighter",
   "description": "Handlebars Syntax Highlighter",
   "publisher": "CarlSaqui",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "icon": "/logo.png",
   "repository": "https://github.com/CarlSaqui29/HandlebarsSyntaxHighlighter",
   "license": "MIT",
@@ -11,23 +11,36 @@
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Programming Languages", "Snippets"
+    "Programming Languages",
+    "Snippets"
   ],
   "contributes": {
-    "languages": [{
-      "id": "handlebars",
-      "aliases": ["handlebars", "handlebars", "html-handlebars"],
-      "extensions": [".html"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "html",
-      "scopeName": "source.handlebars.grammar",
-      "path": "./syntaxes/handlebars.tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "html",
-      "path": "./snippets/snippets.code_snippets.json"
-    }]
+    "languages": [
+      {
+        "id": "handlebars",
+        "aliases": [
+          "handlebars",
+          "handlebars",
+          "html-handlebars"
+        ],
+        "extensions": [
+          ".html"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "html",
+        "scopeName": "source.handlebars.grammar",
+        "path": "./syntaxes/handlebars.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code_snippets.json"
+      }
+    ]
   }
 }
