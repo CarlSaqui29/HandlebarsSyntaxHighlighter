@@ -373,10 +373,10 @@
 					"name": "support.constant.handlebars"
 				},
 				"2": {
-					"name": "support.constant.handlebars keyword.control"
+					"name": "markup.deleted"
 				},
 				"3": {
-					"name": "support.constant.handlebars keyword.control"
+					"name": "markup.deleted"
 				}
 			},
 			"patterns": []
@@ -477,10 +477,10 @@
 					"name": "support.constant.handlebars"
 				},
 				"2": {
-					"name": "support.constant.handlebars keyword.control"
+					"name": "markup.deleted"
 				},
 				"3": {
-					"name": "support.constant.handlebars keyword.control"
+					"name": "markup.deleted"
 				},
 				"4": {
 					"name": "variable.parameter.handlebars"
@@ -652,7 +652,7 @@
 					"name": "support.constant.handlebars"
 				},
 				"2": {
-					"name": "support.constant.handlebars keyword.control"
+					"name": "markup.deleted"
 				},
 				"3": {
 					"name": "support.constant.handlebars"
