@@ -1,3 +1,6 @@
+## Release 1.1.2 (2023-12-13) - skipped because of network issue while deploying
+## Release 1.1.1 (2023-12-13) - skipped because of network issue while deploying
+
 ## Release 1.1.0 (2023-12-13)
 
 This is a regular release.

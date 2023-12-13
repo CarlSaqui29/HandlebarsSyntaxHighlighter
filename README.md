@@ -1,4 +1,4 @@
-# Handlebars - Syntax Highlighter README
+# Handlebars - Syntax Highlighter
 
 Supercharge your HTML development with our Handlebars - Syntax Highlighter extension! Enjoy seamless syntax highlighting for both Handlebars.js and HTML within your .html files, enhancing code readability. Harness the power of Handlebars with emmet shortcuts, and effortlessly create Handlebars templates and partials with our convenient keyboard shortcuts, streamlining your workflow for efficient web development.
 
@@ -6,15 +6,23 @@ Supercharge your HTML development with our Handlebars - Syntax Highlighter exten
 
 1. Syntax Brilliance: Illuminate your .html files with seamless syntax highlighting for both Handlebars.js and HTML. Experience clarity and precision in your code, effortlessly distinguishing between Handlebars and HTML elements.
 
-2. Emmet for Handlebars: Turbocharge your development with Handlebars Emmet support. Enjoy the efficiency of expanding Handlebars expressions with ease, enhancing your workflow and boosting productivity.
+2. Snippet for Handlebars: Turbocharge your development with Handlebars Snippet support. Enjoy the efficiency of expanding Handlebars expressions with ease, enhancing your workflow and boosting productivity.
 
 3. Swift Template Creation: Accelerate your coding journey with convenient shortcuts for crafting Handlebars templates and partials. Effortlessly generate the scaffolding you need, empowering you to focus on what matters most – your code.
 
-## How to Use
+## List of Handy Handlebars Snippets
+- **-template:** generates handlebar's template
+- **-partial:** generates handlebar's partial template
+- **-layout:** layout template
+- **-render:** render partial template
+- **-list:** list helper
+- **-log:** log helper
+- **-if:** if condition
+- **-unless:** unless condition
+- **-ifelse:** if-else block condition
+- **-with:** with helper
+- **-each:** each helper
 
-- Install Handlebars - Syntax Highlighter on vscode extension
-- Select Language Mode press `⌘K M` then choose HTML as the Language Identifier
-- Restart VSCode
 
 ### Release 1.1.0
 
