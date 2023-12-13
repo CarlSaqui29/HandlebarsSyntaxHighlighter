@@ -1,0 +1,95 @@
+{
+  "Handlebars Template": {
+    "prefix": "-template",
+    "body": [
+      "<script id=\"${1:id}-template\" type=\"text/x-handlebars-template\">${2}</script>"
+    ],
+    "description": "Handlebars template refers to a text-based document or a string containing placeholders, which are later replaced with actual values when the template is rendered."
+  },
+  "Handlebars Partial Template": {
+    "prefix": "-partial",
+    "body": [
+      "<script id=\"${1:id}-partial\" type=\"text/x-handlebars-partial\">${2}</script>"
+    ],
+    "description": "Partials allow you to break down your templates into smaller, reusable components, making your code more modular and maintainable."
+  },
+  "Handlebars Layout Templates": {
+    "prefix": "-layout",
+    "body": [
+      "{{#> layout}}",
+      "\t$0${1}",
+      "{{/layout}}"
+    ],
+    "description": "Used to include a partial template."
+  },
+  "Handlebars Render Partial": {
+    "prefix": "-render",
+    "body": [
+      "{{> ${1:mypartial}}}"
+    ],
+    "description": "Used to render partial templates."
+  },
+  "Handlebars List Block": {
+    "prefix": "-list",
+    "body": [
+      "{{#list ${1:option-hash}}}",
+      "\t$0${2}",
+      "{{/list}}"
+    ],
+    "description": "Like regular helpers, block helpers can accept an optional Hash as its final argument."
+  },
+  "Handlebars Log": {
+    "prefix": "-log",
+    "body": [
+      "{{#log '${1:log_something}'}}"
+    ],
+    "description": "The log helper allows for logging of context state while executing a template."
+  },
+  "Handlebars IF Helper": {
+    "prefix": "-if",
+    "body": [
+      "{{#if ${1:foo}}}",
+      "\t$0${2}",
+      "{{/if}}"
+    ],
+    "description": "Helper to conditionally render a block."
+  },
+  "Handlebars UNLESS Helper": {
+    "prefix": "-unless",
+    "body": [
+      "{{#unless ${1:foo}}}",
+      "\t$0${2}",
+      "{{/unless}}"
+    ],
+    "description": "You can use the unless helper as the inverse of the if helper. Its block will be rendered if the expression returns a falsy value."
+  },
+  "Handlebars IF-ELSE Helper": {
+    "prefix": "-ifelse",
+    "body": [
+      "{{#if ${1:foo}}}",
+      "\t$0${2}",
+      "{{else}}",
+      "\t$0${3}",
+      "{{/if}}"
+    ],
+    "description": "Helper to conditionally render a block, whether the the condition is true or false."
+  },
+  "Handlebars WITH Helper": {
+    "prefix": "-with",
+    "body": [
+      "{{#with ${1:object}}}",
+      "\t$0${2}",
+      "{{/with}}"
+    ],
+    "description": "The with-helper allows you to change the evaluation context of template-part."
+  },
+  "Handlebars EACH Helper": {
+    "prefix": "-each",
+    "body": [
+      "{{#each ${1:object}}}",
+      "\t$0${2}",
+      "{{/each}}"
+    ],
+    "description": "You can iterate over a list using the built-in each helper. Inside the block, you can use this to reference the element being iterated over."
+  }
+}
