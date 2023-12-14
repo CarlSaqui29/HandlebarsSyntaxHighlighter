@@ -1,10 +1,10 @@
 {
   "name": "handlebars-syntax-highlighter",
-  "displayName": "Handlebars - Syntax Highlighter",
-  "description": "Handlebars Syntax Highlighter",
+  "displayName": "Handlebars Syntax Highlighter",
+  "description": "Colorized handlebars syntax with snippets support.",
   "publisher": "CarlSaqui",
   "version": "1.1.3",
-  "icon": "/logo.png",
+  "icon": "./images/logo.png",
   "repository": "https://github.com/CarlSaqui29/HandlebarsSyntaxHighlighter",
   "license": "MIT",
   "engines": {
@@ -20,7 +20,7 @@
         "id": "handlebars",
         "aliases": [
           "handlebars",
-          "handlebars",
+          "Handlebars",
           "html-handlebars"
         ],
         "extensions": [
