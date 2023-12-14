@@ -10,9 +10,9 @@ Supercharge your development with Handlebars Syntax Highlighter! Enjoy syntax hi
 - Enhanced code readability
 
 ## Snippets
-| Trigger | Description | Code Generate |
+| Trigger Commands | Description | Code Generate |
 | --- | --- | --- |
-| `-template` | Generates template | `<script id="id-template" type="text/x-handlebars-template"></script>`|
+| `-template` &nbsp;&nbsp;&nbsp;&nbsp; | Generates template | `<script id="id-template" type="text/x-handlebars-template"></script>`|
 | `-partial` | Generates partial template | `<script id="id-partial" type="text/x-handlebars-partial"></script>` |
 | `-layout` | Layout template | `{{#> layout}}{{/layout}}` |
 | `-render` | Render partial template | `{{> mypartial}}` | 
