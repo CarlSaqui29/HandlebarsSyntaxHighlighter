@@ -12,8 +12,8 @@ Supercharge your development with Handlebars Syntax Highlighter! Enjoy syntax hi
 ## Snippets
 | Trigger | Description | Code Generate |
 | --- | --- | --- |
-| `-template` | Generates 's template | `<script id="id-template" type="text/x-handlebars-template"></script>`|
-| `-partial` | Generates handlebar's partial template | `<script id="id-partial" type="text/x-handlebars-partial"></script>` |
+| `-template` | Generates template | `<script id="id-template" type="text/x-handlebars-template"></script>`|
+| `-partial` | Generates partial template | `<script id="id-partial" type="text/x-handlebars-partial"></script>` |
 | `-layout` | Layout template | `{{#> layout}}{{/layout}}` |
 | `-render` | Render partial template | `{{> mypartial}}` | 
 | `-list` | List helper | `{{#list option-hash}}{{/list}}` |
