@@ -10,7 +10,7 @@ Supercharge your development with Handlebars Syntax Highlighter! Enjoy syntax hi
 - Enhanced code readability
 
 ## Snippets
-| Trigger Commands | Description | Code Generate |
+| Trigger | Description | Code Generate |
 | --- | --- | --- |
 | `-template` &nbsp;&nbsp;&nbsp;&nbsp; | Generates template | `<script id="id-template" type="text/x-handlebars-template"></script>`|
 | `-partial` | Generates partial template | `<script id="id-partial" type="text/x-handlebars-partial"></script>` |
