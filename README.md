@@ -1,4 +1,4 @@
-# Handlebars - Syntax Highlighter
+# Handlebars Syntax Highlighter
 
 Supercharge your development with Handlebars Syntax Highlighter! Enjoy syntax highlighting, enhanced code readability and Handlebars code snippets.
 
