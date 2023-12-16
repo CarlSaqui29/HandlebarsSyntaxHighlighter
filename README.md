@@ -5,9 +5,10 @@ Supercharge your development with Handlebars Syntax Highlighter! Enjoy syntax hi
 ![preview-handlebars-syntax-highlighter](./images/preview.png)
 
 ## Key Features
-- Hightlights handlebars syntax
-- Handlebars code snippets
-- Enhanced code readability
+- Syntax highlighting
+- Code snippets
+- Bracket matching
+- Bracket autoclosing
 
 ## Snippets
 | Trigger | Description | Code Generate |
