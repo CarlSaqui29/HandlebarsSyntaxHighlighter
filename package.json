@@ -24,7 +24,8 @@
           "html-handlebars"
         ],
         "extensions": [
-          ".html"
+          ".html",
+          ".hbr"
         ],
         "configuration": "./language-configuration.json"
       }
@@ -34,11 +35,20 @@
         "language": "html",
         "scopeName": "source.handlebars.grammar",
         "path": "./syntaxes/handlebars.tmLanguage.json"
+      },
+      {
+        "language": "handlebars",
+        "scopeName": "source.handlebars.grammar",
+        "path": "./syntaxes/handlebars.tmLanguage.json"
       }
     ],
     "snippets": [
       {
         "language": "html",
+        "path": "./snippets/snippets.code_snippets.json"
+      },
+      {
+        "language": "handlebars",
         "path": "./snippets/snippets.code_snippets.json"
       }
     ]
